@@ -1,11 +1,20 @@
 # Flashloan Bot Demo
 
-A demonstration of a multi-DEX monitoring and flashloan arbitrage bot for educational purposes.
+A deterministic multi-DEX monitoring and flashloan-capable arbitrage system used to analyze real-time execution viability across DEX protocols.
 
 ## ⚠️ Disclaimer
 This is a simplified, educational demonstration of flashloan arbitrage concepts. This code is not intended for production use and lacks many critical security features and error handling mechanisms required for real trading.
 
 ## 🚀 Features
+
+🎯 What This Demonstrates
+This project focuses on:
+- Correct fee-aware execution price calculation
+- Real-time on-chain data ingestion via WebSockets
+- Deterministic behavior under non-profitable conditions
+- Accurate modeling of DEX mechanics and flashloan constraints
+
+While profitable execution is not enabled in this demo, all monitoring and calculations are executed against live on-chain data.
 
 - Monitor multiple DEXes for price discrepancies
 - Simulate flashloan arbitrage opportunities
@@ -52,8 +61,19 @@ FLASHLOAN_PROVIDER=0xYourFlashloanProviderAddress
 
 1. The monitor scans multiple DEXes for price differences in token pairs
 2. When an opportunity is found, it calculates potential profit after fees
-3. If profitable, it executes a flashloan to perform the arbitrage
+3. If profitable conditions are detected, the system demonstrates the execution path. In this demo version, execution is intentionally disabled to ensure safety and reproducibility.
 4. The loan is repaid within the same transaction
+
+## 📊 Proof of Execution
+Example runtime output from live monitoring:
+
+```
+[2025-12-25T23:16:24.227Z] [USDC] Path=USDC -[QuickSwapV3(0.0001%)]-> USDC.e -[UniswapV3(0.01%)]-> USDC
+In=1000.00 USDC -> Out=999.845295 USDC
+RoundTripSpread≈-0.0155% | Net=$-0.154705
+```
+
+This output demonstrates correct fee application, reserve-based pricing, and deterministic logging under real market conditions.
 
 ## 🔒 Security Notice
 
