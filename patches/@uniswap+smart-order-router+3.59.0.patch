@@ -1,0 +1,82 @@
+diff --git a/node_modules/@uniswap/smart-order-router/build/main/util/addresses.js b/node_modules/@uniswap/smart-order-router/build/main/util/addresses.js
+index 07f5e8d..da656d0 100644
+--- a/node_modules/@uniswap/smart-order-router/build/main/util/addresses.js
++++ b/node_modules/@uniswap/smart-order-router/build/main/util/addresses.js
+@@ -21,7 +21,7 @@ exports.MIXED_ROUTE_QUOTER_V1_ADDRESSES = {
+ exports.MIXED_ROUTE_QUOTER_V2_ADDRESSES = {
+     [sdk_core_1.ChainId.SEPOLIA]: '0x4745f77b56a0e2294426e3936dc4fab68d9543cd',
+ };
+-exports.UNISWAP_MULTICALL_ADDRESSES = Object.assign(Object.assign({}, constructSameAddressMap('0x1F98415757620B543A52E61c46B32eB19261F984')), { [sdk_core_1.ChainId.CELO]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.CELO].multicallAddress, [sdk_core_1.ChainId.CELO_ALFAJORES]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.CELO_ALFAJORES].multicallAddress, [sdk_core_1.ChainId.OPTIMISM_GOERLI]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.OPTIMISM_GOERLI].multicallAddress, [sdk_core_1.ChainId.OPTIMISM_SEPOLIA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.OPTIMISM_SEPOLIA].multicallAddress, [sdk_core_1.ChainId.SEPOLIA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.SEPOLIA].multicallAddress, [sdk_core_1.ChainId.ARBITRUM_GOERLI]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ARBITRUM_GOERLI].multicallAddress, [sdk_core_1.ChainId.ARBITRUM_SEPOLIA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ARBITRUM_SEPOLIA].multicallAddress, [sdk_core_1.ChainId.BNB]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BNB].multicallAddress, [sdk_core_1.ChainId.AVALANCHE]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.AVALANCHE].multicallAddress, [sdk_core_1.ChainId.BASE_GOERLI]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BASE_GOERLI].multicallAddress, [sdk_core_1.ChainId.BASE]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BASE].multicallAddress, [sdk_core_1.ChainId.BLAST]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BLAST].multicallAddress, [sdk_core_1.ChainId.ZORA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ZORA].multicallAddress, [sdk_core_1.ChainId.ZKSYNC]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ZKSYNC].multicallAddress });
++exports.UNISWAP_MULTICALL_ADDRESSES = Object.assign(Object.assign({}, constructSameAddressMap('0x1F98415757620B543A52E61c46B32eB19261F984')), { [sdk_core_1.ChainId.CELO]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.CELO].multicallAddress, [sdk_core_1.ChainId.CELO_ALFAJORES]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.CELO_ALFAJORES].multicallAddress, [sdk_core_1.ChainId.OPTIMISM_GOERLI]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.OPTIMISM_GOERLI].multicallAddress, [sdk_core_1.ChainId.OPTIMISM_SEPOLIA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.OPTIMISM_SEPOLIA].multicallAddress, [sdk_core_1.ChainId.SEPOLIA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.SEPOLIA].multicallAddress, [sdk_core_1.ChainId.ARBITRUM_GOERLI]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ARBITRUM_GOERLI].multicallAddress, [sdk_core_1.ChainId.ARBITRUM_SEPOLIA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ARBITRUM_SEPOLIA].multicallAddress, [sdk_core_1.ChainId.BNB]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BNB].multicallAddress, [sdk_core_1.ChainId.AVALANCHE]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.AVALANCHE].multicallAddress, [sdk_core_1.ChainId.BASE_GOERLI]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BASE_GOERLI].multicallAddress, [sdk_core_1.ChainId.BASE]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BASE].multicallAddress, [sdk_core_1.ChainId.BLAST]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.BLAST].multicallAddress, [sdk_core_1.ChainId.ZORA]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ZORA].multicallAddress, [sdk_core_1.ChainId.ZKSYNC]: sdk_core_1.CHAIN_TO_ADDRESSES_MAP[sdk_core_1.ChainId.ZKSYNC].multicallAddress, [sdk_core_1.ChainId.POLYGON_AMOY]: '0xed386Fe855C1EFf2f843B910923Dd8846E45C5A4' });
+ const SWAP_ROUTER_02_ADDRESSES = (chainId) => {
+     var _a;
+     return ((_a = (0, sdk_core_1.SWAP_ROUTER_02_ADDRESSES)(chainId)) !== null && _a !== void 0 ? _a : '0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45');
+diff --git a/node_modules/@uniswap/smart-order-router/build/main/util/chains.js b/node_modules/@uniswap/smart-order-router/build/main/util/chains.js
+index 5ae36f2..0198837 100644
+--- a/node_modules/@uniswap/smart-order-router/build/main/util/chains.js
++++ b/node_modules/@uniswap/smart-order-router/build/main/util/chains.js
+@@ -13,9 +13,10 @@ exports.SUPPORTED_CHAINS = [
+     sdk_core_1.ChainId.ARBITRUM_SEPOLIA,
+     sdk_core_1.ChainId.POLYGON,
+     sdk_core_1.ChainId.POLYGON_MUMBAI,
++    sdk_core_1.ChainId.POLYGON_AMOY,
+     sdk_core_1.ChainId.SEPOLIA,
+-    sdk_core_1.ChainId.CELO_ALFAJORES,
+     sdk_core_1.ChainId.CELO,
++    sdk_core_1.ChainId.CELO_ALFAJORES,
+     sdk_core_1.ChainId.BNB,
+     sdk_core_1.ChainId.AVALANCHE,
+     sdk_core_1.ChainId.BASE,
+@@ -81,6 +82,8 @@ const ID_TO_CHAIN_ID = (id) => {
+             return sdk_core_1.ChainId.POLYGON;
+         case 80001:
+             return sdk_core_1.ChainId.POLYGON_MUMBAI;
++        case 80002:
++            return sdk_core_1.ChainId.POLYGON_AMOY;
+         case 42220:
+             return sdk_core_1.ChainId.CELO;
+         case 44787:
+@@ -119,6 +122,7 @@ var ChainName;
+     ChainName["ARBITRUM_SEPOLIA"] = "arbitrum-sepolia";
+     ChainName["POLYGON"] = "polygon-mainnet";
+     ChainName["POLYGON_MUMBAI"] = "polygon-mumbai";
++    ChainName["POLYGON_AMOY"] = "polygon-amoy";
+     ChainName["CELO"] = "celo-mainnet";
+     ChainName["CELO_ALFAJORES"] = "celo-alfajores";
+     ChainName["GNOSIS"] = "gnosis-mainnet";
+@@ -193,6 +197,10 @@ exports.NATIVE_NAMES_BY_ID = {
+         'MATIC',
+         '0x0000000000000000000000000000000000001010',
+     ],
++    [sdk_core_1.ChainId.POLYGON_AMOY]: [
++        'MATIC',
++        '0x0000000000000000000000000000000000001010',
++    ],
+     [sdk_core_1.ChainId.CELO]: ['CELO'],
+     [sdk_core_1.ChainId.CELO_ALFAJORES]: ['CELO'],
+     [sdk_core_1.ChainId.GNOSIS]: ['XDAI'],
+@@ -236,6 +244,7 @@ exports.NATIVE_CURRENCY = {
+     [sdk_core_1.ChainId.ARBITRUM_SEPOLIA]: NativeCurrencyName.ETHER,
+     [sdk_core_1.ChainId.POLYGON]: NativeCurrencyName.MATIC,
+     [sdk_core_1.ChainId.POLYGON_MUMBAI]: NativeCurrencyName.MATIC,
++    [sdk_core_1.ChainId.POLYGON_AMOY]: NativeCurrencyName.MATIC,
+     [sdk_core_1.ChainId.CELO]: NativeCurrencyName.CELO,
+     [sdk_core_1.ChainId.CELO_ALFAJORES]: NativeCurrencyName.CELO,
+     [sdk_core_1.ChainId.GNOSIS]: NativeCurrencyName.GNOSIS,
+@@ -273,6 +282,8 @@ const ID_TO_NETWORK_NAME = (id) => {
+             return ChainName.POLYGON;
+         case 80001:
+             return ChainName.POLYGON_MUMBAI;
++        case 80002:
++            return ChainName.POLYGON_AMOY;
+         case 42220:
+             return ChainName.CELO;
+         case 44787:
+@@ -357,6 +368,7 @@ exports.WRAPPED_NATIVE_CURRENCY = {
+     [sdk_core_1.ChainId.ARBITRUM_SEPOLIA]: new sdk_core_1.Token(sdk_core_1.ChainId.ARBITRUM_SEPOLIA, '0xc556bAe1e86B2aE9c22eA5E036b07E55E7596074', 18, 'WETH', 'Wrapped Ether'),
+     [sdk_core_1.ChainId.POLYGON]: new sdk_core_1.Token(sdk_core_1.ChainId.POLYGON, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped MATIC'),
+     [sdk_core_1.ChainId.POLYGON_MUMBAI]: new sdk_core_1.Token(sdk_core_1.ChainId.POLYGON_MUMBAI, '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889', 18, 'WMATIC', 'Wrapped MATIC'),
++    [sdk_core_1.ChainId.POLYGON_AMOY]: new sdk_core_1.Token(sdk_core_1.ChainId.POLYGON_AMOY, '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889', 18, 'WMATIC', 'Wrapped MATIC'),
+     // The Celo native currency 'CELO' implements the erc-20 token standard
+     [sdk_core_1.ChainId.CELO]: new sdk_core_1.Token(sdk_core_1.ChainId.CELO, '0x471EcE3750Da237f93B8E339c536989b8978a438', 18, 'CELO', 'Celo native asset'),
+     [sdk_core_1.ChainId.CELO_ALFAJORES]: new sdk_core_1.Token(sdk_core_1.ChainId.CELO_ALFAJORES, '0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9', 18, 'CELO', 'Celo native asset'),

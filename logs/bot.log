@@ -1,0 +1,525 @@
+2026-01-03 11:21:26 [info]: Starting Monitor...
+2026-01-03 11:21:26 [info]: Initializing Monitor...
+2026-01-03 11:21:26 [info]: Tokens initialized successfully
+2026-01-03 11:21:26 [info]: Monitor initialized successfully
+2026-01-03 11:21:31 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:21:31 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:31 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:31 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:36 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:21:36 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:36 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:36 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:41 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:21:41 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:41 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:41 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:46 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:21:46 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:46 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:46 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:51 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:21:51 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:51 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:51 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:56 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:21:56 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:56 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:56 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:01 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:22:01 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:01 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:01 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:06 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:22:06 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:06 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:06 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:11 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:22:11 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:11 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:11 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:16 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:22:16 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:16 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:16 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:21 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:22:21 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:21 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:21 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:25 [info]: Received SIGINT. Shutting down monitor gracefully...
+2026-01-03 11:30:28 [info]: Starting Monitor...
+2026-01-03 11:30:28 [info]: Initializing Monitor...
+2026-01-03 11:30:28 [info]: Tokens initialized successfully
+2026-01-03 11:30:28 [info]: Monitor initialized successfully
+2026-01-03 11:30:33 [info]: Scanning for arbitrage opportunities...
+2026-01-03 11:30:34 [error]: Failed to get best trade from DAI to USDC: Cannot read properties of undefined (reading 'isToken')
+2026-01-03 12:05:41 [info]: Starting Flashloan Bot...
+2026-01-03 12:05:42 [info]: Initializing Flashloan Bot...
+2026-01-03 12:05:42 [info]: Tokens initialized successfully
+2026-01-03 12:05:42 [info]: Bot initialized successfully
+2026-01-03 12:05:42 [info]: Found opportunity: {
+  "id": 1767459942007,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459942008
+}
+2026-01-03 12:05:42 [info]: Executing arbitrage for opportunity 1767459942007
+2026-01-03 12:05:42 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:05:42 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:42 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:48 [info]: Found opportunity: {
+  "id": 1767459948023,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459948024
+}
+2026-01-03 12:05:48 [info]: Executing arbitrage for opportunity 1767459948023
+2026-01-03 12:05:48 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:05:48 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:48 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:54 [info]: Found opportunity: {
+  "id": 1767459954060,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459954060
+}
+2026-01-03 12:05:54 [info]: Executing arbitrage for opportunity 1767459954060
+2026-01-03 12:05:54 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:05:54 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:54 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:00 [info]: Found opportunity: {
+  "id": 1767459960073,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459960073
+}
+2026-01-03 12:06:00 [info]: Executing arbitrage for opportunity 1767459960073
+2026-01-03 12:06:00 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:00 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:00 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:06 [info]: Found opportunity: {
+  "id": 1767459966101,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459966101
+}
+2026-01-03 12:06:06 [info]: Executing arbitrage for opportunity 1767459966101
+2026-01-03 12:06:06 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:06 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:06 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:12 [info]: Found opportunity: {
+  "id": 1767459972125,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459972126
+}
+2026-01-03 12:06:12 [info]: Executing arbitrage for opportunity 1767459972125
+2026-01-03 12:06:12 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:12 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:12 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:18 [info]: Found opportunity: {
+  "id": 1767459978153,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459978154
+}
+2026-01-03 12:06:18 [info]: Executing arbitrage for opportunity 1767459978153
+2026-01-03 12:06:18 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:18 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:18 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:24 [info]: Found opportunity: {
+  "id": 1767459984184,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459984185
+}
+2026-01-03 12:06:24 [info]: Executing arbitrage for opportunity 1767459984184
+2026-01-03 12:06:24 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:24 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:24 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:30 [info]: Found opportunity: {
+  "id": 1767459990210,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459990211
+}
+2026-01-03 12:06:30 [info]: Executing arbitrage for opportunity 1767459990210
+2026-01-03 12:06:30 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:30 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:30 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:36 [info]: Found opportunity: {
+  "id": 1767459996240,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767459996241
+}
+2026-01-03 12:06:36 [info]: Executing arbitrage for opportunity 1767459996240
+2026-01-03 12:06:36 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:36 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:36 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:42 [info]: Found opportunity: {
+  "id": 1767460002263,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460002264
+}
+2026-01-03 12:06:42 [info]: Executing arbitrage for opportunity 1767460002263
+2026-01-03 12:06:42 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:42 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:42 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:48 [info]: Found opportunity: {
+  "id": 1767460008294,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460008294
+}
+2026-01-03 12:06:48 [info]: Executing arbitrage for opportunity 1767460008294
+2026-01-03 12:06:48 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:48 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:48 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:54 [info]: Found opportunity: {
+  "id": 1767460014321,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460014322
+}
+2026-01-03 12:06:54 [info]: Executing arbitrage for opportunity 1767460014321
+2026-01-03 12:06:54 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:06:54 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:54 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:56 [info]: Received SIGINT. Shutting down gracefully...
+2026-01-03 12:11:04 [info]: Starting Flashloan Bot...
+2026-01-03 12:11:04 [info]: Initializing Flashloan Bot...
+2026-01-03 12:11:04 [info]: Tokens initialized successfully
+2026-01-03 12:11:04 [info]: Bot initialized successfully
+2026-01-03 12:11:04 [info]: Found opportunity: {
+  "id": 1767460264271,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460264271
+}
+2026-01-03 12:11:04 [info]: Executing arbitrage for opportunity 1767460264271
+2026-01-03 12:11:04 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:04 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:04 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:10 [info]: Found opportunity: {
+  "id": 1767460270296,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460270297
+}
+2026-01-03 12:11:10 [info]: Executing arbitrage for opportunity 1767460270296
+2026-01-03 12:11:10 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:10 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:10 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:16 [info]: Found opportunity: {
+  "id": 1767460276328,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460276328
+}
+2026-01-03 12:11:16 [info]: Executing arbitrage for opportunity 1767460276328
+2026-01-03 12:11:16 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:16 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:16 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:22 [info]: Found opportunity: {
+  "id": 1767460282354,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460282356
+}
+2026-01-03 12:11:22 [info]: Executing arbitrage for opportunity 1767460282354
+2026-01-03 12:11:22 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:22 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:22 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:28 [info]: Found opportunity: {
+  "id": 1767460288383,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460288384
+}
+2026-01-03 12:11:28 [info]: Executing arbitrage for opportunity 1767460288383
+2026-01-03 12:11:28 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:28 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:28 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:34 [info]: Found opportunity: {
+  "id": 1767460294407,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460294407
+}
+2026-01-03 12:11:34 [info]: Executing arbitrage for opportunity 1767460294407
+2026-01-03 12:11:34 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:34 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:34 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:40 [info]: Found opportunity: {
+  "id": 1767460300438,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460300439
+}
+2026-01-03 12:11:40 [info]: Executing arbitrage for opportunity 1767460300438
+2026-01-03 12:11:40 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:11:40 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:11:40 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:11:41 [info]: Received SIGINT. Shutting down gracefully...
+2026-01-03 12:12:07 [info]: Starting Flashloan Bot...
+2026-01-03 12:12:07 [info]: Initializing Flashloan Bot...
+2026-01-03 12:12:07 [info]: Tokens initialized successfully
+2026-01-03 12:12:07 [info]: Bot initialized successfully
+2026-01-03 12:12:07 [info]: Found opportunity: {
+  "id": 1767460327091,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460327091
+}
+2026-01-03 12:12:07 [info]: Executing arbitrage for opportunity 1767460327091
+2026-01-03 12:12:07 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:12:07 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:12:07 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:12:13 [info]: Found opportunity: {
+  "id": 1767460333104,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460333105
+}
+2026-01-03 12:12:13 [info]: Executing arbitrage for opportunity 1767460333104
+2026-01-03 12:12:13 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:12:13 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:12:13 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:12:19 [info]: Found opportunity: {
+  "id": 1767460339128,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767460339129
+}
+2026-01-03 12:12:19 [info]: Executing arbitrage for opportunity 1767460339128
+2026-01-03 12:12:19 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 12:12:19 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 12:12:19 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 12:12:20 [info]: Received SIGINT. Shutting down gracefully...
+2026-01-03 14:20:49 [info]: Starting Flashloan Bot...
+2026-01-03 14:20:49 [info]: Initializing Flashloan Bot...
+2026-01-03 14:20:49 [info]: Tokens initialized successfully
+2026-01-03 14:20:49 [info]: Bot initialized successfully
+2026-01-03 14:20:49 [info]: Found opportunity: {
+  "id": 1767468049638,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767468049638
+}
+2026-01-03 14:20:49 [info]: Executing arbitrage for opportunity 1767468049638
+2026-01-03 14:20:49 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 14:20:49 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 14:20:49 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 14:20:55 [info]: Found opportunity: {
+  "id": 1767468055665,
+  "tokenIn": "DAI",
+  "tokenOut": "USDC",
+  "amountIn": "1000000000000000000000",
+  "expectedProfit": "0.05",
+  "path": [
+    "DAI",
+    "WETH",
+    "USDC",
+    "DAI"
+  ],
+  "timestamp": 1767468055665
+}
+2026-01-03 14:20:55 [info]: Executing arbitrage for opportunity 1767468055665
+2026-01-03 14:20:55 [info]: Simulating flashloan for 1000.0 of asset 0x6B175474E89094C44Da98b954EedeAC495271d0F
+2026-01-03 14:20:55 [info]: Simulation successful! Expected profit: 0.1 ETH
+2026-01-03 14:20:55 [info]: Skipping actual flashloan execution in demo mode
+2026-01-03 14:21:00 [info]: Received SIGINT. Shutting down gracefully...

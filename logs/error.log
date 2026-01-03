@@ -1,0 +1,60 @@
+2026-01-03 11:21:31 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:31 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:31 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:36 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:36 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:36 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:41 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:41 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:41 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:46 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:46 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:46 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:51 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:51 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:51 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:21:56 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:56 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:21:56 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:01 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:01 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:01 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:06 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:06 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:06 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:11 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:11 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:11 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:16 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:16 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:16 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:22:21 [error]: Failed to get best trade from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:21 [error]: Failed to get price from DAI to USDC: TokenAmount is not a constructor
+2026-01-03 11:22:21 [error]: Error during monitoring: TokenAmount is not a constructor
+2026-01-03 11:30:34 [error]: Failed to get best trade from DAI to USDC: Cannot read properties of undefined (reading 'isToken')
+2026-01-03 12:05:42 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:42 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:48 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:48 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:54 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:05:54 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:00 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:00 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:06 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:06 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:12 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:12 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:18 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:18 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:24 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:24 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:30 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:30 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:36 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:36 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:42 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:42 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:48 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:48 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:54 [error]: Flashloan simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
+2026-01-03 12:06:54 [error]: Arbitrage execution failed: Simulation failed: invalid BigNumber string (argument="value", value="1.0009999999999999e+21", code=INVALID_ARGUMENT, version=bignumber/5.8.0)
